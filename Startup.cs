@@ -40,9 +40,8 @@ namespace MyCourse
             {
                 string Nome = context.Request.Query["nome"];
                 await context.Response.WriteAsync("Hello World!");
-                
                 await context.Response.WriteAsync($"Hello {Nome}!");
-            });
+            }); 
             */
 
             //app.UseMvcWithDefaultRoute();
